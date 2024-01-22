@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+	color: #646464;
+	margin: 0 15px;
+}
+
+header i{
+	font-size: 25px;
+	color: #646464;
+}
+
+.perfil{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.perfil a{
+	width: 20%;
+}
+
+.perfil img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+.box-chat-online{
+	margin:20px 0;
+	border:1px solid #ccc;
+	padding:20px 10px 20px 10px;
+	height: 400px;
+	overflow-y: scroll;
+}
+
+.mensagem-chat{
+	padding: 8px 0;
+	border-bottom: 1px dotted rgb(210,210,210);
+}
+
+.mensagem-chat span{
+	border-radius: 10px;
+}
+
+.mensagem-chat p{
+	font-size: 17px;
+	background: linear-gradient(#4CB9E7,#1967ce);
+	color: white;
+	padding: 10px 8px;
+	border-radius: 10px;
+}
+
+form{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border: 1px solid #646464;
+	border-radius: 20px;
+	padding: 5px 5px;
+	margin: 0 10px;
+}
+
+form a{
+	color: #646464;
+}
+
+form a:nth-child(1){
+	background: linear-gradient(#4CB9E7,#1967ce);
+	color: white;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+form a:nth-child(3){
+	margin: 0 10px;
+}
+
+form a:nth-child(4){
+	margin: 0 10px;
+}
+
+form input[type=submit]{
+	margin: 0 10px;
+	background: linear-gradient(#4CB9E7,#1967ce);
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+	color: white;
+}
+
+form textarea{
+	margin: 0 auto;
+	width: 70%;
+	border: none;
+	position: static;
+}
